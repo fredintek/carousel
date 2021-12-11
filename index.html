@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Carousel</title>
+</head>
+<body>
+    <section id="carousel-container">
+        <button class="carousel-btn carousel-left-btn is-hidden">
+            <img src="img/left.svg" alt="">
+        </button>
+        <div class="image-track-container">
+            <ul class="image-container">
+                <li class="image current-image">
+                    <img class="picture" src="img/joker.jpg" alt="">
+                </li>
+                <li class="image">
+                    <img class="picture" src="img/newlion.jpg" alt="">
+                </li>
+                <li class="image">
+                    <img class="picture" src="img/IMG_20190110_223241_456.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+        <button class="carousel-btn carousel-right-btn">
+            <img src="img/right.svg" alt="">
+        </button>
+        <div class="carousel-nav">
+            <button class="dot dot-1 current-dot"></button>
+            <button class="dot dot-2"></button>
+            <button class="dot dot-3"></button>
+        </div>
+    </section>
+
+    <script src="js/carousel.js"></script>
+</body>
+</html>
